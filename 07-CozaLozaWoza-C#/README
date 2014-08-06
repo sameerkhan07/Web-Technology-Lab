@@ -1,0 +1,5 @@
+PRACTICAL 07
+
+Program in C# called CozaLozaWoza which prints the numbers from 1 to 110, 11 numbers per line. The program should print 'Coza' in place of numbers which are multiples of 3, 'Loza' for multiples of 5 and 'Woza' for multiples of 3 and 5, and so on.
+
+

@@ -1,0 +1,7 @@
+PRACTICAL 04
+
+Program having class PrintNumberInWord which prints 'one','two' if int variable number is 1,2,3..., 
+Using (a) nested-if statement;
+      (b) switch-case statement
+
+
