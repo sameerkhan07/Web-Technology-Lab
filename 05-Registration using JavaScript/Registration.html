@@ -14,23 +14,23 @@
     }
 
     </style>
-<script src="regvalid.js"></script>
+<script src="/home/msameerkhan/Desktop/regvalid.js"></script>
 </head>
 <body onload="document.registration.userid.focus();">
 <h1>Registration Form</h1>
 <p>Use tab keys to move from one input field to the next.</p>
 <div class="container">
 <form name='registration' onSubmit="return formValidation();">
-<label for="name">Name:</label>
+<label for="fname">Name:</label>
 <input type="text" name="name" size="50" /><br>
 <label for="userid">Email:</label>
 <input type="text" name="userid" size="50" /><br>
 <label for="passid">Password:</label>
 <input type="password" name="passid" size="12" /><br>
 <label for="mobno">Mobile No.:</label>
-<input type="number" name="mobno" size="10" /><br>
+<input type="text" name="mobno" size="10" /><br>
 <label for="address">Address:</label>
-<input type="text" name="address" size="50" /><br>
+<input type="text" name="address" size="50" /><br><br>
 <label for="state">State</label>
 <select name="state">
 <option selected="" value="Default">(Please select a state)</option>
@@ -39,13 +39,11 @@
 <option value="DZ">Maharashtra</option>
 <option value="AS">Goa</option>
 <option value="AD">Kerala</option>
-</select><br>
+</select><br><br>
 <label for="zip">ZIP Code:</label>
-<input type="text" name="zip" /><br>
-<label for="email">Email:</label>
-<input type="text" name="email" size="50" /><br>
+<input type="text" name="zip" size="6" /><br>
 </div>
-<label id="gender">Sex:</label>  
+<br><label id="gender">Sex:</label>  
 <input type="radio" name="sex" value="Male" /><span>Male</span>  
 <input type="radio" name="sex" value="Female" /><span>Female</span><br><br>
 <input type="submit" name="submit" value="Submit" /><br>
