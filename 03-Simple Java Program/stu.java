@@ -4,7 +4,7 @@ import java.util.*;
 public class stu 
 {
     int rn,age;
-    String name,fname;
+    String name,fname,mname;
     void input()
     {
         Scanner sc=new Scanner(System.in);
@@ -16,6 +16,8 @@ public class stu
         age=sc.nextInt();
         System.out.print("Enter father's name: ");
         fname=sc.next();          
+	System.out.print("Enter mother's name: ");
+        fname=sc.next(); 
     }
     void display()
     {
@@ -23,6 +25,7 @@ public class stu
         System.out.println("Name: "+name);
         System.out.println("Age: "+age);
         System.out.println("Father's name: "+fname);
+	System.out.println("Mother's name: "+mname);
     }
                
 }
