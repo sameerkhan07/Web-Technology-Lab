@@ -1,13 +1,19 @@
-
 DELHI TECHNOLOGICAL UNIVERSITY <Lab Practicals>
 
 This is a public repository for all Practicals in Web Technology Lab for the 5th Semester.
 You can use the data within but please give propers credits.
 
-/*!
- * Copyright 2014
- * Licensed under M. Sameer Khan
- * Roll No. 2K12/SE/044
- */
+List of Practicals:
 
-
+01 - Interface of "Facebook" using HTML Tags (include frames, forms, hyperlinks and so on).
+02 - Webpage for a website of a 'Tour & Travel Agency' using Cascading Style Sheets (includes all the basic tags, mapping and Audio/Video).
+03 - Simple Java Program which takes user's information and displays it.
+04 - Program having class PrintNumberInWord which prints 'one','two' if int variable number is 1,2,3..., 
+     Using (a) nested-if statement;
+           (b) switch-case statement
+05 - Validate registration form using JavaScript which contains fields: Name, Password, Email-id, Mobile No. etc
+06 - Program in C# that reads one line of input text and breaks it up into words. Output will be one word per line.
+07 - Program in C# called CozaLozaWoza which prints the numbers from 1 to 110, 11 numbers per line. The program should print 'Coza' in place of numbers which are multiples of 3, 'Loza' for multiples of 5 and 'Woza' for multiples of 3 and 5, and so on.
+08 - Class EMPLOYEE whose objects are records for an employee. This class will be derived class of the class PERSON which has information of the name, age, gender. An employee record has employee's personal details, annula salary represented as single value of type double, year the employee started working as single value of type int and national insurance number, which is a value of type string.
+09 - Arithmetic Calculator using forms in C#.
+10 - Database connectivity

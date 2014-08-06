@@ -1,5 +1,3 @@
 PRACTICAL 08
 
 Class EMPLOYEE whose objects are records for an employee. This class will be derived class of the class PERSON which has information of the name, age, gender. An employee record has employee's personal details, annula salary represented as single value of type double, year the employee started working as single value of type int and national insurance number, which is a value of type string.
-
-
